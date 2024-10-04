@@ -6,8 +6,8 @@ import seaborn as sns
 # Load the datasets from local paths
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv("C:/Users/RAKHA ALCANDER/Downloads/Projek Dicoding/Dashboard/clean_data.csv")
-    hour_df = pd.read_csv("C:/Users/RAKHA ALCANDER/Downloads/Projek Dicoding/Dashboard/clean_data1.csv")
+    day_df = pd.read_csv("dashboard/clean_data.csv")
+    hour_df = pd.read_csv("dashboard/clean_data1.csv")
     return day_df, hour_df
 
 day_df, hour_df = load_data()
