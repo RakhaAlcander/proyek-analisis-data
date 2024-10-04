@@ -3,7 +3,7 @@
 ## Proyek Analisis Data
 ## Setup Environment - Anaconda
 ```
-conda create --name daffahacker python=3.9
+conda create --name daffahacker python=3.11.9
 conda activate daffahacker
 pip install numpy pandas matplotlib seaborn streamlit
 pip install -r requirements.txt
